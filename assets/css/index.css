@@ -626,6 +626,7 @@ section.faq{
 
 .faq_card_title{
 	color: var(--darker);
+	font-size: 16px;
 }
 .faq_card_btn{
 	font-size: 2rem;
