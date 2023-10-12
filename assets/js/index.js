@@ -41,7 +41,7 @@ sr.reveal(
          .choose_content, .choose_benefit,
          .doctor_content, .swiper-wrapper,
          .faq_detail, .faq_card, .appointment, 
-         .footer__data, .footer__rights`,
+         .footer__container`,
   {
     origin: 'top',
     interval: 100,
