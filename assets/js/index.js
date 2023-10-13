@@ -36,34 +36,11 @@ const sr = ScrollReveal({
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 sr.reveal(
-  `      .home_card, .service_content_detail,
-         .service_content_detail,
-         .choose_content, .choose_benefit,
-         .doctor_content, .swiper-wrapper,
-         .ourblog_content,
-         .faq_detail, .faq_card, .appointment, 
-         .footer__container`,
+  `      .header_content,.navbar,.home_content,
+         .about_us_content,.service_content,.choose,
+         .doctor,.testimonial_cs,.ourblog,.faq_content,
+         .apointment_content,.footer__container`,
   {
     origin: 'top',
-  }
-);
-
-sr.reveal(
-  `.home_detail, .about_img_hero
-         ,.service_detail,
-         .service_btn, .choose-card, .doctor_card,
-         .ourblog_cards`,
-  {
-    origin: 'left',
-  }
-);
-
-sr.reveal(
-  `.home_pict, 
-         .about,
-         .card_service, .img-choose, .doctor_button, 
-         .testimonial_cs_title, .blog_button`,
-  {
-    origin: 'right',
   }
 );
